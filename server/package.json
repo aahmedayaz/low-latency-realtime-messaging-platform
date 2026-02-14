@@ -1,0 +1,26 @@
+{
+  "name": "low-latency-realtime-messaging-platform-backend",
+  "version": "1.0.0",
+  "description": "A production-grade, low-latency realtime messaging platform built using Node.js, Socket.io, Redis, and MongoDB, focusing on horizontal scalability and fault tolerance.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "npx nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aahmedayaz/low-latency-realtime-messaging-platform.git"
+  },
+  "author": "Ahmed Ayaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aahmedayaz/low-latency-realtime-messaging-platform/issues"
+  },
+  "homepage": "https://github.com/aahmedayaz/low-latency-realtime-messaging-platform#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "dotenv": "^17.3.1",
+    "nodemon": "^3.1.11"
+  }
+}
